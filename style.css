@@ -1,5 +1,5 @@
 body{  
-    background-color: #c99d3f;
+    background-color: #787c83;
 }
 
 p{
@@ -15,7 +15,7 @@ img{
 }
 ol li{
     font-size: 30px;
-    color: purple;
+    color: rgb(114, 14, 114);
 }
 ul li{
     color: green;
@@ -25,16 +25,20 @@ ul li{
 }
 
 h1{
-    color: #dff6ff
+    color: #9e429c;
 }
 h2{
-    color: #dff6ff;
+    color: #9e429c;
 }
 
 .enviar
 {
     border-radius: 5px;
-    background-color: #E9FFEC;
-    color: #812525;
+    background-color: #3cda2e;
+    color: #131111;
 
+}
+.fondo
+{
+    background-color: rgb(233, 6, 120);
 }
