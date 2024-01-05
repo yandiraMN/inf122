@@ -1,0 +1,214 @@
+//aritmeticos
+undefined
+let suma=7+2;
+undefined
+console.log(suma)
+VM167:1 9
+undefined
+let resta=5-2;
+undefined
+console.log(resta);
+VM245:1 3
+undefined
+let multiplicacion=3*5;
+undefined
+console.log(multiplicacion);
+VM386:1 15
+undefined
+let division=4/2
+undefined
+console.log(division);
+VM444:1 2
+undefined
+let modulo=100%2
+undefined
+console.log(modulo);
+VM543:1 0
+undefined
+//comparacion
+undefined
+let mayorque= 10>5;
+undefined
+console.log(mayorque);
+VM712:1 true
+undefined
+let menorque= 20<5;
+undefined
+console.log(menorque);
+VM775:1 false
+undefined
+let mayorigualque= 25<=5;
+undefined
+console.log(mayorigualque);
+VM887:1 false
+undefined
+let menorigualque= 20>=5;
+undefined
+console.log(menorigualque);
+VM922:1 true
+undefined
+let igualque="hola"==="hola"
+undefined
+console.log(igualque);
+VM1051:1 true
+undefined
+let diferenteque="Hola"!=="hola"
+undefined
+console.log(diferenteque);
+VM1275:1 true
+undefined
+let and= true&&true;
+undefined
+console.log(and);
+VM1370:1 true
+undefined
+let or= false||true;
+undefined
+console.log(or);
+VM1424:1 true
+undefined
+let not= !true;
+undefined
+console.log(not);
+VM1479:1 false
+undefined
+let rmds=4-5*7/5+2
+undefined
+console.log(rmds);
+VM1569:1 -1
+undefined
+let smm= 4+15*2%2
+undefined
+console.log(smm);
+VM1652:1 4
+undefined
+const persona={nombre: "carlos",edad:25,ocupacion:"desarrollador"};
+undefined
+console.log(persona)
+VM1878:1 {nombre: 'carlos', edad: 25, ocupacion: 'desarrollador'}
+undefined
+const colores=["rojo","verde","azul"]
+undefined
+console.log(colores)
+VM2033:1 (3) ['rojo', 'verde', 'azul']
+undefined
+console.log(persona.edad)
+VM2091:1 25
+undefined
+console.log(persona.nombre)
+VM2177:1 carlos
+undefined
+console.log(persona.ocupacion)
+VM2220:1 desarrollador
+undefined
+console.log("mi nombre es " +persona.nombre+ " y tengo "+ persona.edad+ " años");
+VM2465:1 mi nombre es carlos y tengo 25 años
+undefined
+persona["apellido"]="Perez";
+'Perez'
+console.log(persona)
+VM2628:1 {nombre: 'carlos', edad: 25, ocupacion: 'desarrollador', apellido: 'Perez'}
+undefined
+persona["ci"]='156432'
+'156432'
+console.log(persona)
+VM2681:1 {nombre: 'carlos', edad: 25, ocupacion: 'desarrollador', apellido: 'Perez', ci: '156432'}
+undefined
+persona.nombre="Juana"
+'Juana'
+console.log(persona)
+VM2751:1 {nombre: 'Juana', edad: 25, ocupacion: 'desarrollador', apellido: 'Perez', ci: '156432'}
+undefined
+persona.edad="20"
+'20'
+persona.ocupacion="Diseñadora"
+'Diseñadora'
+console.log(persona)
+VM2852:1 {nombre: 'Juana', edad: '20', ocupacion: 'Diseñadora', apellido: 'Perez', ci: '156432'}
+undefined
+console.log(colores)
+VM2926:1 (3) ['rojo', 'verde', 'azul']
+undefined
+console.log(colores.length)
+VM3104:1 3
+undefined
+console.log(colores[1]);
+VM3225:1 verde
+undefined
+console.log(colores[2]);
+VM3234:1 azul
+undefined
+console.log(colores[3]);
+VM3241:1 undefined
+for (let i=0; i<colores.length; i++)
+{
+	console.log("elemento: "+colores[i]+ " indice: "+i)
+}
+VM3427:3 elemento: rojo indice: 0
+VM3427:3 elemento: verde indice: 1
+VM3427:3 elemento: azul indice: 2
+undefined
+colores.push("amarillo")
+4
+colores.push("rosa")
+5
+colores.push("morado")
+6
+console.log(colores);
+VM3555:1 (6) ['rojo', 'verde', 'azul', 'amarillo', 'rosa', 'morado']
+colores.reverse()
+(6) ['morado', 'rosa', 'amarillo', 'azul', 'verde', 'rojo']
+colores.sort()
+(6) ['amarillo', 'azul', 'morado', 'rojo', 'rosa', 'verde']
+colores.push(20)
+7
+colores.push(30)
+8
+colores.push(40)
+9
+console.log(colores)
+VM3832:1 (9) ['amarillo', 'azul', 'morado', 'rojo', 'rosa', 'verde', 20, 30, 40]
+undefined
+colores.push(30.12)
+10
+colores.push(24.7)
+11
+colores.push(4.87)
+12
+colores.push(true)
+13
+console.log(colores)
+VM3960:1 (13) ['amarillo', 'azul', 'morado', 'rojo', 'rosa', 'verde', 20, 30, 40, 30.12, 24.7, 4.87, true]
+undefined
+colores.sort()
+(13) [20, 24.7, 30, 30.12, 4.87, 40, 'amarillo', 'azul', 'morado', 'rojo', 'rosa', true, 'verde']
+const datos=[1,2,3]
+undefined
+colores.push(datos)
+14
+console.log(colores)
+VM4139:1 (14) [20, 24.7, 30, 30.12, 4.87, 40, 'amarillo', 'azul', 'morado', 'rojo', 'rosa', true, 'verde', Array(3)]0: 201: 24.72: 303: 30.124: 4.875: 406: "amarillo"7: "azul"8: "morado"9: "rojo"10: "rosa"11: true12: "verde"13: (3) [1, 2, 3]length: 14[[Prototype]]: Array(0)
+undefined
+colores.pop();
+(3) [1, 2, 3]
+console.log(colores)
+VM4191:1 (13) [20, 24.7, 30, 30.12, 4.87, 40, 'amarillo', 'azul', 'morado', 'rojo', 'rosa', true, 'verde']
+undefined
+colores.pop();
+'verde'
+console.log(colores)
+VM4217:1 (12) [20, 24.7, 30, 30.12, 4.87, 40, 'amarillo', 'azul', 'morado', 'rojo', 'rosa', true]
+undefined
+var elemento= colores.pop();
+undefined
+console.log(elemento)
+VM4353:1 true
+undefined
+var elemento= colores.pop();
+undefined
+console.log(elemento)
+VM4365:1 rosa
+undefined
+console.log(colores)
+VM4377:1 (10) [20, 24.7, 30, 30.12, 4.87, 40, 'amarillo', 'azul', 'morado', 'rojo']
+undefined
