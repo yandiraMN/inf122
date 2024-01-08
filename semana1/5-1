@@ -212,14 +212,3 @@ undefined
 console.log(colores)
 VM4377:1 (10) [20, 24.7, 30, 30.12, 4.87, 40, 'amarillo', 'azul', 'morado', 'rojo']
 undefined
-			08/01
-			function saludar(nombre)
-				{
-					return "hola, "+nombre+"!"
-				}
-			console.log(nombre)
-			hola, Yandira!
-			function suma(a+b)
-				{
-					return suma;
-				}
