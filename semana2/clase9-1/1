@@ -64,6 +64,46 @@
             font-size: var(--md);
             margin: 100px 0 100px 0;
         }
+        .more-info{
+            display: grid;
+            background-color: var(--light-purple);
+            width: 100%;
+
+        }
+        .card-container{
+            display: flex;
+            align-items: center;
+            margin: 16px 0 16px 0;
+
+        }
+        .icons-container{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 50px 260px 50px 260px;
+            justify-content: center;
+        }
+        .card-icon{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: var(--white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 28px;
+        }
+        .card-icon figure img{
+            width: 50px;
+            height: 50px;
+        }
+        .icon-text h2{
+            font-size: var(--sm);
+            margin: 0;
+        }
+        .icon-text p{
+            font-size: var(--white);
+            margin:0;
+        }
     </style>
 </head>
 <body>
@@ -81,7 +121,7 @@
                 <div class="card-container">
                     <div class="card-icon">
                         <figure>
-                            <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                            <img src="/semana2/clase9-1/icons/bx_bxs-book-heart.svg" alt="" class="logo">
                         </figure>
                     </div>
 
@@ -93,7 +133,7 @@
                 <div class="card-container">
                     <div class="card-icon">
                         <figure>
-                            <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                            <img src="/semana2/clase9-1/icons/bx_bxs-book-heart.svg" alt="" class="logo">
                         </figure>
                     </div>
 
@@ -105,7 +145,7 @@
                 <div class="card-container">
                     <div class="card-icon">
                         <figure>
-                            <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                            <img src="/semana2/clase9-1/icons/bx_bxs-book-heart.svg" alt="" class="logo">
                         </figure>
                     </div>
 
@@ -117,7 +157,7 @@
                 <div class="card-container">
                     <div class="card-icon">
                         <figure>
-                            <img src="./icons/bx_bxs-book-heart.svg" alt="" class="logo">
+                            <img src="/semana2/clase9-1/icons/bx_bxs-book-heart.svg" alt="" class="logo">
                         </figure>
                     </div>
 
