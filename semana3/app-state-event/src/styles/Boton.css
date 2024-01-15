@@ -1,5 +1,5 @@
 button{
-    width: 200px;
+    width: 300px;
     height: auto;
     font-family: Roboto,sans-serif;
     border-radius: 5px;
@@ -10,5 +10,6 @@ button{
 }
 button:hover{
     background-color: #DCDCE5;
-    color: #FF872C;
+    /*color: #FF872C;
+    width: 150px;*/
 }
