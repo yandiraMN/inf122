@@ -3,68 +3,54 @@ import './App.css';
 import Boton from './components/Boton.js'
 import Contador from './components/Contador.js';
 function App() {
-  const [nroClicks, setNumClicks] = useState(0);
-  const [show, setShow] = useState(true);
-  const click = () => {
-    setNumClicks(nroClicks + 1);
-    console.log("click");
+  const [nroClicks, setNumClicks]=useState(0);
+  /*const click =()=>{
+    setNumClicks(nroClicks+1);
+  }*/
+  const reiniciar=()=>{
+    setNumClicks(0)
   }
-  const clickMas3 = () => {
-    setNumClicks(nroClicks + 3);
-    
-
+  const clikmas3=()=>{
+    setNumClicks(nroClicks+3)
   }
-  const clickMenos3 = () => {
-    setNumClicks(nroClicks -3);
-    
-    setNumClicks(nroClicks - 3);
-
+  const clikmenos3=()=>{
+    setNumClicks(nroClicks-3)
   }
-  const clickMenos = () => {
-    setNumClicks(nroClicks - 1);
-    
-
+  const clikmenos1=()=>{
+    setNumClicks(nroClicks-1)
   }
-  const reiniciar = () => {
-    setNumClicks(0);
-    console.log('reiniciar');
+  const clikmas1=()=>{
+    setNumClicks(nroClicks+1)
   }
-  const mostrar = () => {
-    setShow(!show);
-  }
+  /* ceunta los clicks en consola
+  const click = () =>{
+    console.log("click")
+    }
+  const reiniciar =()=>{
+    console.log("reiniciar")
+  }*/
   return (
     <div className="App">
-      <div className="contenedor-principal">
-        <Contador nroClicks={nroClicks} />
-        <Contador nroClicks={nroClicks} mostrar={show} />
-        <div className='contendedor-botones'>
-          <div className='contendedor-botones-numeros'>
-          <Boton texto="-3" esBotonClick={true}
-            funcionClick={clickMenos3} />
-          <Boton texto="+3" esBotonClick={true}
-            funcionClick={clickMas3} />
-          <Boton texto="-1" esBotonClick={true}
-            funcionClick={clickMenos} />
-          <Boton texto="+1" esBotonClick={true}
-            funcionClick={click} />
-            <Boton texto="-3" esBotonClick={true}
-              funcionClick={clickMenos3} />
-            <Boton texto="+3" esBotonClick={true}
-              funcionClick={clickMas3} />
+      <div className='contenedor-principal'>
+        <Contador nroClicks={nroClicks}/>
+        <div className='contenedor-botones-numeros'>
+        <div className='contenedor-botones'>
+        <Boton texto="-3" esBotonClick={true}
+            funcionClick={clikmenos3} />
+        <Boton texto="+3" esBotonClick={true}
+            funcionClick={clikmas3} />
             <Boton texto="-1" esBotonClick={true}
-              funcionClick={clickMenos} />
-            <Boton texto="+1" esBotonClick={true}
-              funcionClick={click} />
-          </div>
-
+            funcionClick={clikmenos1} />
+        <Boton texto="+1" esBotonClick={true}
+            funcionClick={clikmas1} />
           <Boton texto="Reiniciar" esBotonClick={false}
             funcionClick={reiniciar} />
-          <Boton texto="Mostrar/Ocultar" esBotonClick={false} funcionClick={mostrar} />
+            
         </div>
+        </div>
+
       </div>
     </div>
   );
 }
 export default App;
-
-
