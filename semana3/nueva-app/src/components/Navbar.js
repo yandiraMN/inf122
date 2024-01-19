@@ -1,19 +1,32 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
+import ('../style/Navbar.css');
 
 function Navbar(){
-    const click=(x)=>{
-        console.log(x);
-      }
     return(
-        <div>
+        <>
+        <nav>
+            <h1>Navbar</h1>
             <ul>
-                <li>Home</li>
-                <li>Login</li>
-                <li>Registro</li>
-                <li>Perfil</li>
+                <li>
+                    <Link to="/">Inicio</Link>
+                </li>
+                <li>
+                    <Link to="/Login">Login</Link>
+                </li>
+                <li>
+                    <Link to="/Registro">Registro</Link>
+                </li>
+                <li>
+                    <Link to="/Perfil">Perfil</Link>
+                </li>
+                <li>
+                    <Link to="/Galeria">Galeria</Link>
+                </li>
             </ul>
-        </div>
+        </nav>
+        <Outlet/>
+        </>
     );
 }
 export default Navbar;
