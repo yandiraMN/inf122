@@ -5,11 +5,11 @@ button{
     border-radius: 5px;
     cursor: pointer;
     margin: 10px;
-    font-size: 24px;
+    font-size: var(--sm);
     background-color: #FF872C;
 }
 button:hover{
     background-color: #DCDCE5;
-    /*color: #FF872C;
-    width: 150px;*/
+    color: #FF872C;
+    width: 150px;
 }
