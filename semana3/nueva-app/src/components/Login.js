@@ -13,7 +13,7 @@ function Login(funClick, text){
                         <label>Usuario</label>
                         <input placeholder="usuario"></input>
                         <label>Contraseña</label>
-                        <input placeholder="contraseña"></input>
+                        <input type="password" placeholder="contraseña" ></input>
                         <Boton funClick={()=>click("Registrar")} text={"Registrar"}/>
                         <Boton funClick={()=>click("Ingresar")} text={"Ingresar"}/>
                 </form>
