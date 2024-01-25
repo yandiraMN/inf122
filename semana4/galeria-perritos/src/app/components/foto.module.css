@@ -1,0 +1,10 @@
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.galeria img{
+    border-radius: 55%;
+    object-fit: cover;
+}
