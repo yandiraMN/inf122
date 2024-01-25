@@ -14,7 +14,7 @@ export default function Foto() {
     }, [])
     return (
         <div className={style.galeria}>
-            <Image className={style.imagen} src={perrito} alt="perrito" width={250} height={250}  />
+            <Image src={perrito} alt="perrito" width={250} height={250}  />
         </div>
     );
   }
