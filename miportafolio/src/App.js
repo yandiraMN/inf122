@@ -1,19 +1,19 @@
-import styles from "./page.module.css";
 import React from 'react';
+import './App.css';
 import Botones from './components/Botones';
 import Datos from './components/Datos';
 import Tabs from './components/Tabs';
 import PerfilPrincipal from './components/PerfilPrincipal';
 import Imagenes from './components/Imagenes';
-
-export default function Home() {
+function App() {
   return (
-    <main className={styles.main}>
-      <PerfilPrincipal />
+      <div className="App">
+        <PerfilPrincipal />
         <Datos />
         <Botones/>
         <Tabs/>
         <Imagenes/>
-    </main>
+      </div>
   );
 }
+export default App;

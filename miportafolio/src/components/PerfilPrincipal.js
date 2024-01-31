@@ -1,31 +1,29 @@
-"use client"
 import React from 'react';
 import perfil from '../assets/images/perfil.jpg';
 import youtube from '../assets/icons/youtube.svg';
 import github from '../assets/icons/github.svg';
-import styles from "./PerfilPrincipal.module.css";
-import Image from 'next/image';
+import "../style/PerfilPrincipal.css";
 
 const PerfilPrincipal = () => {
   return (
-    <div className={styles.profileinfo}>
-      <div className={styles.profileimg}>
-        <Image src={perfil} alt="foto" />
+    <div className='profile-info'>
+      <div className='profile-img'>
+        <img src={perfil} alt="foto" />
       </div>
-      <div className={styles.info}>
+      <div className='info'>
         <h1>Yandira Enilse Morales Nina</h1>
-        <br></br>
         <p>Estudiante de Informática</p>
-        <div className={styles.profilesocial}>
+        <div className='profile-social'>
           <a href="https://www.youtube.com/@yandiraenilsemoralesnina212" target="_blank" rel="noopener noreferrer">
-            <Image src={youtube} alt="Logo de YouTube" className={styles.profilesocialimg} width={0} height={0}/>
+            <img src={youtube} alt="Logo de YouTube" className='profile-social-img' />
           </a>
           <a href="https://github.com/yandiraMN" target="_blank" rel="noopener noreferrer">
-            <Image src={github} alt="Logo de GitHub" className={styles.profilesocialimg} width={0} height={0} />
+            <img src={github} alt="Logo de GitHub" className='profile-social-img' />
           </a>
         </div>
       </div>
     </div>
   );
 }
+
 export default PerfilPrincipal;

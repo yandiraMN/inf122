@@ -1,0 +1,66 @@
+.buttons {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 38px;
+    background-color: #884dff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1cm;
+    font-weight: bold; 
+    border-radius: 2%;
+}
+
+.btnprimary {
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    background: #4d4dff;
+    font-weight: bold; 
+}
+
+.btncontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold; 
+}
+
+.btnprimary .btncontent p {
+    color: var(--primary-background);
+    font-size: var(--sm);
+    font-weight: 500;
+    line-height: normal;
+    font-weight: bold; 
+}
+
+.btnsecondary {
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-top: 0.8cm;
+    font-weight: bold; 
+}
+
+.btnsecondary .btncontent p {
+    color: var(--secondary-clear);
+    font-size: var(--sm);
+    font-weight: 500;
+    line-height: normal;
+    font-weight: bold; 
+}
+.btnprimary .btncontent p {
+    color: var(--primary-background);
+    font-size: var(--lg);
+    font-weight: bold;  
+    line-height: normal;
+}
+
+.btnsecondary .btncontent p {
+    color: var(--secondary-clear);
+    font-size: var(--sm);
+    font-weight: bold; 
+    line-height: normal;
+}

@@ -1,0 +1,44 @@
+.tabs {
+  margin: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #884dff;
+  gap: 50px;
+  
+}
+
+.tabsBackgroundItem {
+  border: none;
+  border-radius: 10px;
+  margin: 24px;
+  width: 300px;
+  height: 80px;
+  background: var(--secondary-background);
+  font-size: var(--sm);
+  font-weight: bold;
+}
+
+.tabsBackgroundItemP {
+    border: none;
+    border-radius: 10px;
+    margin: 24px;
+    width: 300px;
+    height: 80px;
+    background: #3655b3;
+    font-size: var(--sm);
+    font-weight: bold;
+  }
+.tabsBackgroundItem .active {
+  border-radius: 10px;
+  background: #3655b3;
+}
+
+.tabsBackgroundItem p {
+  color: var(--secondary-clear);
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  font-weight: bold;
+}

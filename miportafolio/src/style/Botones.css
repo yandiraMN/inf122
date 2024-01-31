@@ -1,0 +1,60 @@
+.buttons {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 38px;
+    background-color: #884dff;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1cm;
+    font-weight: bold; 
+}
+
+.btn-primary {
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    background: #4d4dff;
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-primary .btn-content p {
+    color: var(--primary-background);
+    font-size: var(--sm);
+    font-weight: 500;
+    line-height: normal;
+}
+
+.btn-secondary {
+    width: 290px;
+    height: 80px;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-top: 0.5cm;
+}
+
+.btn-secondary .btn-content p {
+    color: var(--secondary-clear);
+    font-size: var(--sm);
+    font-weight: 500;
+    line-height: normal;
+}
+.btn-primary .btn-content p {
+    color: var(--primary-background);
+    font-size: var(--lg);
+    font-weight: bold;  
+    line-height: normal;
+}
+
+.btn-secondary .btn-content p {
+    color: var(--secondary-clear);
+    font-size: var(--sm);
+    font-weight: bold; 
+    line-height: normal;
+}
